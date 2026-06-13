@@ -1,0 +1,187 @@
+{
+  "device": "cuda",
+  "main_results": [
+    {
+      "name": "small_relu_adam",
+      "model": "small_relu",
+      "optimizer": "adam",
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "parameters": 1070986,
+      "best_test_accuracy": 0.3729,
+      "best_test_error": 0.6271,
+      "elapsed_seconds": 28.783896684646606,
+      "weights_path": "reports\\project2_experiments\\runs\\small_relu_adam\\model.pt"
+    },
+    {
+      "name": "small_wide_adam",
+      "model": "small_wide",
+      "optimizer": "adam",
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "parameters": 2176010,
+      "best_test_accuracy": 0.3347,
+      "best_test_error": 0.6653,
+      "elapsed_seconds": 27.760188102722168,
+      "weights_path": "reports\\project2_experiments\\runs\\small_wide_adam\\model.pt"
+    },
+    {
+      "name": "small_dropout_adam",
+      "model": "small_dropout",
+      "optimizer": "adam",
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "parameters": 1070986,
+      "best_test_accuracy": 0.3891,
+      "best_test_error": 0.6109,
+      "elapsed_seconds": 23.838547945022583,
+      "weights_path": "reports\\project2_experiments\\runs\\small_dropout_adam\\model.pt"
+    },
+    {
+      "name": "small_relu_adamw_wd",
+      "model": "small_relu",
+      "optimizer": "adamw",
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "parameters": 1070986,
+      "best_test_accuracy": 0.3701,
+      "best_test_error": 0.6299,
+      "elapsed_seconds": 22.99846124649048,
+      "weights_path": "reports\\project2_experiments\\runs\\small_relu_adamw_wd\\model.pt"
+    },
+    {
+      "name": "small_relu_sgd",
+      "model": "small_relu",
+      "optimizer": "sgd",
+      "lr": 0.05,
+      "weight_decay": 0.0001,
+      "parameters": 1070986,
+      "best_test_accuracy": 0.3984,
+      "best_test_error": 0.6016,
+      "elapsed_seconds": 22.960775136947632,
+      "weights_path": "reports\\project2_experiments\\runs\\small_relu_sgd\\model.pt"
+    },
+    {
+      "name": "small_leaky_relu_adam",
+      "model": "small_leaky_relu",
+      "optimizer": "adam",
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "parameters": 1070986,
+      "best_test_accuracy": 0.3848,
+      "best_test_error": 0.6152,
+      "elapsed_seconds": 22.907429456710815,
+      "weights_path": "reports\\project2_experiments\\runs\\small_leaky_relu_adam\\model.pt"
+    },
+    {
+      "name": "small_elu_adam",
+      "model": "small_elu",
+      "optimizer": "adam",
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "parameters": 1070986,
+      "best_test_accuracy": 0.3843,
+      "best_test_error": 0.6157,
+      "elapsed_seconds": 23.033329725265503,
+      "weights_path": "reports\\project2_experiments\\runs\\small_elu_adam\\model.pt"
+    },
+    {
+      "name": "vgg_light_adam",
+      "model": "vgg_light",
+      "optimizer": "adam",
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "parameters": 285162,
+      "best_test_accuracy": 0.3209,
+      "best_test_error": 0.6791,
+      "elapsed_seconds": 26.89005994796753,
+      "weights_path": "reports\\project2_experiments\\runs\\vgg_light_adam\\model.pt"
+    }
+  ],
+  "bn_results": [
+    {
+      "name": "bn_sweep_vgg_a_lr_0.001",
+      "model": "vgg_a",
+      "lr": 0.001,
+      "parameters": 9750922,
+      "best_test_accuracy": 0.1676,
+      "best_test_error": 0.8324,
+      "elapsed_seconds": 33.52391767501831,
+      "weights_path": "reports\\project2_experiments\\runs\\bn_sweep_vgg_a_lr_0.001\\model.pt"
+    },
+    {
+      "name": "bn_sweep_vgg_a_bn_lr_0.001",
+      "model": "vgg_a_bn",
+      "lr": 0.001,
+      "parameters": 9758474,
+      "best_test_accuracy": 0.1,
+      "best_test_error": 0.9,
+      "elapsed_seconds": 22.303951740264893,
+      "weights_path": "reports\\project2_experiments\\runs\\bn_sweep_vgg_a_bn_lr_0.001\\model.pt"
+    },
+    {
+      "name": "bn_sweep_vgg_a_lr_0.002",
+      "model": "vgg_a",
+      "lr": 0.002,
+      "parameters": 9750922,
+      "best_test_accuracy": 0.1171,
+      "best_test_error": 0.8829,
+      "elapsed_seconds": 21.884925842285156,
+      "weights_path": "reports\\project2_experiments\\runs\\bn_sweep_vgg_a_lr_0.002\\model.pt"
+    },
+    {
+      "name": "bn_sweep_vgg_a_bn_lr_0.002",
+      "model": "vgg_a_bn",
+      "lr": 0.002,
+      "parameters": 9758474,
+      "best_test_accuracy": 0.0799,
+      "best_test_error": 0.9201,
+      "elapsed_seconds": 21.868056774139404,
+      "weights_path": "reports\\project2_experiments\\runs\\bn_sweep_vgg_a_bn_lr_0.002\\model.pt"
+    },
+    {
+      "name": "bn_sweep_vgg_a_lr_0.0001",
+      "model": "vgg_a",
+      "lr": 0.0001,
+      "parameters": 9750922,
+      "best_test_accuracy": 0.2014,
+      "best_test_error": 0.7986,
+      "elapsed_seconds": 23.890398025512695,
+      "weights_path": "reports\\project2_experiments\\runs\\bn_sweep_vgg_a_lr_0.0001\\model.pt"
+    },
+    {
+      "name": "bn_sweep_vgg_a_bn_lr_0.0001",
+      "model": "vgg_a_bn",
+      "lr": 0.0001,
+      "parameters": 9758474,
+      "best_test_accuracy": 0.1141,
+      "best_test_error": 0.8859,
+      "elapsed_seconds": 22.09840989112854,
+      "weights_path": "reports\\project2_experiments\\runs\\bn_sweep_vgg_a_bn_lr_0.0001\\model.pt"
+    },
+    {
+      "name": "bn_sweep_vgg_a_lr_0.0005",
+      "model": "vgg_a",
+      "lr": 0.0005,
+      "parameters": 9750922,
+      "best_test_accuracy": 0.2035,
+      "best_test_error": 0.7965,
+      "elapsed_seconds": 21.524224519729614,
+      "weights_path": "reports\\project2_experiments\\runs\\bn_sweep_vgg_a_lr_0.0005\\model.pt"
+    },
+    {
+      "name": "bn_sweep_vgg_a_bn_lr_0.0005",
+      "model": "vgg_a_bn",
+      "lr": 0.0005,
+      "parameters": 9758474,
+      "best_test_accuracy": 0.1498,
+      "best_test_error": 0.8502000000000001,
+      "elapsed_seconds": 21.782065868377686,
+      "weights_path": "reports\\project2_experiments\\runs\\bn_sweep_vgg_a_bn_lr_0.0005\\model.pt"
+    }
+  ],
+  "figures": {
+    "test_accuracy_curves": "reports\\project2_experiments\\figures\\test_accuracy_curves.png",
+    "bn_loss_landscape": "reports\\project2_experiments\\figures\\bn_loss_landscape.png"
+  }
+}

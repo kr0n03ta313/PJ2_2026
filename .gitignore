@@ -1,0 +1,39 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local environments and editor files
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+
+# Large datasets
+/data/
+codes/VGG_BatchNorm/data/cifar-10-python.tar.gz
+codes/VGG_BatchNorm/data/cifar-10-batches-py/
+
+# Model weights and generated binary artifacts
+*.pt
+*.pth
+*.ckpt
+
+# Generated report exports
+*.pdf
+*.html
+
+# Local assignment/progress artifacts not needed in the code repository
+PROJECT2_PROGRESS_REPORT.md
+project_2_2026.lyx
+project_2_2026.pdf
+bib.bib
+pic/
+
+# Keep lightweight metrics and figures, ignore bulky run directories by default
+reports/project2_experiments/runs/
+reports/project2_experiments/runs_main5/
+
+# Temporary files
+*.tmp
+*.log
