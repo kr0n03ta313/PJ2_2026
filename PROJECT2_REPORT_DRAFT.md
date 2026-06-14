@@ -2,9 +2,9 @@
 
 - 姓名：余淏天
 - 学号：23307140085
-- 代码仓库链接：`[请填写 GitHub 链接]`
+- 代码仓库链接：`https://github.com/kr0n03ta313/PJ2_2026`
 - 数据集链接：https://scidata.sjtu.edu.cn/records/p4t8m-rbe26
-- 模型权重链接：`[请填写上传后的模型权重链接]`
+- 模型权重链接：`https://github.com/kr0n03ta313/PJ2_2026/releases/download/model-weights-v1/model.pt`
 
 ## 实验背景
 
