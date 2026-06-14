@@ -46,4 +46,4 @@ python experiments\visualize_model_insights.py --max-items 1000 --layers feature
 python -m unittest discover -s tests -v
 ```
 
-The CIFAR-10 dataset and trained model weights are not committed because they are large. They should be provided through separate uploaded links in the submitted report.
+The CIFAR-10 dataset and trained model weights are not committed because they are large. The final checkpoint is uploaded to Hugging Face: https://huggingface.co/chris-yu/PJ2_2026/resolve/main/model.pt
